@@ -882,10 +882,8 @@ object {
   display: block; }
 
 .home-header {
-  background-image: url("img/home-header.jpg");
   height: 80vh;
   min-width: 100%;
-  background-size: cover;
   background-repeat: no-repeat;
   color: white; }
 

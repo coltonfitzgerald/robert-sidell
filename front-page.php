@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="home-header">
+			<div class="home-header parallax-window" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-header.jpg">
 				<h1>SIDELL</h1>
 				<h2>LAW OFFICES</h2>
 			</div>
