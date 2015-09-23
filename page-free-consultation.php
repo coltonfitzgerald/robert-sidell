@@ -24,7 +24,7 @@ get_header(); ?>
 					<p class="section-name">EMAIL</p>
 					<p><a href="mailto:robert@robertsidell.com">robert@robertsidell.com</a></p>
 					<div class="contact-form">
-						<?php do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
+						<?php do_shortcode('[gravityform id="1" title="false" description="false"]', $ignore_html = false); ?>
 					</div>
 				</div>
 		</main><!-- #main -->
