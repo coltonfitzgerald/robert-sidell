@@ -281,7 +281,8 @@ big {
 .office-info {
   font-family: "Source Sans Pro";
   font-size: "20px";
-  font-weight: 600; }
+  font-weight: 600;
+  letter-spacing: 3px; }
   .office-info a {
     color: black;
     text-decoration: none; }
@@ -291,11 +292,19 @@ big {
   margin: 0; }
   #site-navigation #primary-menu li:last-child {
     border: 2px solid black; }
+    #site-navigation #primary-menu li:last-child:hover {
+      -webkit-transition: 250ms;
+              transition: 250ms;
+      border-color: #E6E6E6; }
   #site-navigation #primary-menu li a {
     color: black;
     font-weight: 600;
     font-size: 15px;
     text-transform: Uppercase; }
+    #site-navigation #primary-menu li a:hover {
+      -webkit-transition: 250ms;
+              transition: 250ms;
+      color: #E6E6E6; }
 
 .home-header h1 {
   font-size: 100px;
@@ -348,6 +357,11 @@ big {
   font-size: 15px; }
   .button:visited {
     color: #CDA177; }
+  .button:hover {
+    -webkit-transition: 250ms;
+            transition: 250ms;
+    background-color: #CDA177;
+    color: white; }
 
 .articles {
   text-align: center; }
@@ -394,6 +408,12 @@ big {
 .site-footer .radio-show-footer p {
   font-size: 13px;
   text-align: center; }
+
+.site-footer .button:hover {
+  -webkit-transition: 250ms;
+          transition: 250ms;
+  color: #282828;
+  background-color: white; }
 
 .articles-page .article {
   font-size: 30px;
