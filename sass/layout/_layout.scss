@@ -9,9 +9,15 @@
 	text-align: center;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-direction: row;
 	border-bottom: 2px solid black;
+	.office-name {
+		margin-left: 50px;
+	}
+	.office-number {
+		margin-right: 50px;
+	}
 }
 
 #site-navigation {
