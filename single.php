@@ -13,22 +13,14 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
-
-			<?php the_post_navigation(); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
-
+			<div class="single-article">
+			<a href="<?php echo get_site_url(); ?>/articles/" title="link back to articles page" class="link-back button">Go Back</a>
+				<h2><?php echo the_title(); ?></h2>
+				<p class="article-date"><?php echo get_the_date(); ?>
+				<p><?php echo the_content(); ?></p>
+			</div>
 		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
