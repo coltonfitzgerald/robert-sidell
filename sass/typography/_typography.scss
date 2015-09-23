@@ -173,3 +173,37 @@ textarea {
 	margin: 0;
 	margin-top: 60px;
 }
+
+.consultation {
+	h2 {
+		font-weight: 300;
+		font-size: 35px;
+		margin-bottom: 60px;
+	}
+	.section-name {
+		color: $section-name-color;
+		font-size: 16px;
+		text-align: center;
+		margin: 0;
+		margin-bottom: 10px;
+		margin-top: 40px;
+	}
+	.phone-column {
+		text-align: center;
+		p {
+			margin: 0;
+		}
+		a {
+			color: black;
+			text-decoration: none;
+		}
+	}
+	p {
+		text-align: center;
+		margin: 0;
+		a {
+			color: black;
+			text-decoration: none;
+		}
+	}
+}

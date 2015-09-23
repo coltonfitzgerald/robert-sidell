@@ -405,6 +405,34 @@ big {
   margin: 0;
   margin-top: 60px; }
 
+.consultation h2 {
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 60px; }
+
+.consultation .section-name {
+  color: #CDA177;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 40px; }
+
+.consultation .phone-column {
+  text-align: center; }
+  .consultation .phone-column p {
+    margin: 0; }
+  .consultation .phone-column a {
+    color: black;
+    text-decoration: none; }
+
+.consultation p {
+  text-align: center;
+  margin: 0; }
+  .consultation p a {
+    color: black;
+    text-decoration: none; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -1078,3 +1106,53 @@ object {
   .single-article p {
     font-weight: 300;
     font-size: 15px; }
+
+.services-page {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 70%;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0 auto; }
+  .services-page p {
+    font-weight: 300; }
+
+.consultation .phone-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  max-width: 100%; }
+  .consultation .phone-row .phone-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 30%;
+    margin-left: 30px;
+    margin-right: 30px; }
