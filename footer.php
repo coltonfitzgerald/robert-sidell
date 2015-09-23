@@ -30,7 +30,7 @@
 			<div class="services-footer">
 				<p class="section-name">SERVICES</p>
 				<div class="service">
-					<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 8 ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+					<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 8, 'orderby'=> 'title', 'order' => 'ASC' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<a href="<?php echo get_permalink(); ?>?" title="link to service">
 					<div class="service">
 						<h3><?php echo the_title(); ?></h3>

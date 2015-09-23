@@ -19,7 +19,7 @@ get_header(); ?>
 			<div class="home-section services">
 				<p class="section-name">SERVICES</p>
 				<div class="service-list">
-				<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 4 ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+				<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 4, 'orderby'=> 'title', 'order' => 'ASC' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="service">
 						<h3><?php echo the_title(); ?></h3>
 						<p><?php echo the_excerpt(); ?></p>
