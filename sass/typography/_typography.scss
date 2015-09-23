@@ -290,6 +290,8 @@ a:hover {
 		padding: 20px 30px 20px 30px;
 		text-align: center;
 		font-size: 15px;
+		background: none;
+		box-shadow: none;
 		&:visited {
 			color: $section-name-color;
 		}

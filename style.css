@@ -503,7 +503,9 @@ a:hover {
   border: 1px solid #CDA177;
   padding: 20px 30px 20px 30px;
   text-align: center;
-  font-size: 15px; }
+  font-size: 15px;
+  background: none;
+  box-shadow: none; }
   .contact-form #gform_submit_button_1:visited {
     color: #CDA177; }
   .contact-form #gform_submit_button_1:hover {
