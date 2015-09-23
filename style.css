@@ -901,8 +901,11 @@ object {
 .gallery-caption {
   display: block; }
 
+.admin-bar .home-header {
+  height: calc(100vh - 163px - 32px); }
+
 .home-header {
-  height: 80vh;
+  height: calc(100vh - 163px);
   min-width: 100%;
   background-repeat: no-repeat;
   color: white; }
