@@ -1274,8 +1274,9 @@ object {
     color: black;
     text-decoration: none; }
 
-.contact-form .gform_body {
-  width: 800px; }
+.contact-form {
+  width: 800px;
+  margin: 0 auto; }
   .contact-form .gform_body #field_1_2, .contact-form .gform_body #field_1_3 {
     display: inline-block;
     min-width: 400px; }
