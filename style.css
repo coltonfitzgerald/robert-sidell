@@ -278,6 +278,11 @@ mark, ins {
 big {
   font-size: 125%; }
 
+a:hover {
+  -webkit-transition: 250ms;
+          transition: 250ms;
+  opacity: 0.6; }
+
 .office-info {
   font-family: "Source Sans Pro";
   font-size: "20px";
@@ -292,19 +297,22 @@ big {
   margin: 0; }
   #site-navigation #primary-menu li:last-child {
     border: 2px solid black; }
-    #site-navigation #primary-menu li:last-child:hover {
+    #site-navigation #primary-menu li:last-child a:hover {
+      color: white !important;
       -webkit-transition: 250ms;
               transition: 250ms;
-      border-color: #E6E6E6; }
+      background-color: black;
+      opacity: 1 !important; }
   #site-navigation #primary-menu li a {
     color: black;
     font-weight: 600;
     font-size: 15px;
-    text-transform: Uppercase; }
+    text-transform: Uppercase;
+    opacity: 1; }
     #site-navigation #primary-menu li a:hover {
       -webkit-transition: 250ms;
               transition: 250ms;
-      color: #E6E6E6; }
+      opacity: 0.6; }
 
 .home-header h1 {
   font-size: 100px;

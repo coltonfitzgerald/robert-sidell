@@ -20,10 +20,6 @@ get_header(); ?>
 							<p class="phone-name">Toll Free:</p>
 							<p class="phone-number"><a href="tel:+18883843847" title="main phone link">1.888.384.3847</a></p>
 						</div>
-						<div class="phone-column">
-							<p class="phone-name">24hr Tape Info:</p>
-							<p class="phone-number"><a href="tel:+17028807888" title="main phone link">702.880.7888</a></p>
-						</div>
 					</div>
 					<p class="section-name">EMAIL</p>
 					<p><a href="mailto:robert@robertsidell.com">robert@robertsidell.com</a></p>

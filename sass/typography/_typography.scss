@@ -13,6 +13,11 @@ textarea {
 
 @import "copy";
 
+a:hover {
+	transition: 250ms;
+	opacity: 0.6;
+}
+
 .office-info {
 	font-family: "Source Sans Pro";
 	font-size: "20px";
@@ -31,9 +36,13 @@ textarea {
 			margin: 0;
 			&:last-child {
 				border: 2px solid black;
-				&:hover {
-					transition: 250ms;
-					border-color: #E6E6E6;
+				a {
+					&:hover {
+						color: white !important;
+						transition: 250ms;
+						background-color: black;
+						opacity: 1 !important;
+					}
 				}
 			}
 			a {
@@ -41,9 +50,10 @@ textarea {
 				font-weight: 600;
 				font-size: 15px;
 				text-transform: Uppercase;
+				opacity: 1;
 				&:hover {
 					transition: 250ms;
-					color: #E6E6E6;
+					opacity: 0.6;
 				}
 			}
 		}
