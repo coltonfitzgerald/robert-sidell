@@ -24,9 +24,13 @@ object {
 --------------------------------------------------------------*/
 @import "galleries";
 
+.admin-bar .home-header {
+	height: calc(100vh - 163px - 32px);
+}
+
 .home-header {
 	//background-image: url('img/home-header.jpg');
-	height: 80vh;
+	height: calc(100vh - 163px);
 	min-width: 100%;
 	//background-size: cover;
 	background-repeat: no-repeat;
