@@ -281,3 +281,22 @@ a:hover {
 .contact-title {
 	margin-bottom: 80px;
 }
+
+.contact-form {
+	#gform_submit_button_1 {
+		color: $section-name-color;
+		text-decoration: none;
+		border: 1px solid $section-name-color;
+		padding: 20px 30px 20px 30px;
+		text-align: center;
+		font-size: 15px;
+		&:visited {
+			color: $section-name-color;
+		}
+		&:hover {
+			transition: 250ms;
+			background-color: $section-name-color;
+			color: white;
+		}
+	}
+}

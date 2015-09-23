@@ -497,6 +497,21 @@ a:hover {
 .contact-title {
   margin-bottom: 80px; }
 
+.contact-form #gform_submit_button_1 {
+  color: #CDA177;
+  text-decoration: none;
+  border: 1px solid #CDA177;
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+  font-size: 15px; }
+  .contact-form #gform_submit_button_1:visited {
+    color: #CDA177; }
+  .contact-form #gform_submit_button_1:hover {
+    -webkit-transition: 250ms;
+            transition: 250ms;
+    background-color: #CDA177;
+    color: white; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
