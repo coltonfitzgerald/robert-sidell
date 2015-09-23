@@ -19,6 +19,7 @@ get_header(); ?>
 				<p class="article-date"><?php echo get_the_date(); ?>
 				<p><?php echo the_content(); ?></p>
 			</div>
+			<?php comments_template(); ?>
 		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
