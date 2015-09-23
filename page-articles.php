@@ -8,7 +8,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="articles-page">
-				<h2 class="page-title">Articles</h2>
+				<h1 class="page-title">Articles</h2>
 				<?php // Display blog posts on any page @ http://m0n.co/l
 					$temp = $wp_query; $wp_query= null;
 					$wp_query = new WP_Query(); $wp_query->query('showposts=7' . '&paged='.$paged);

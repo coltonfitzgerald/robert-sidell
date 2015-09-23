@@ -286,6 +286,17 @@ big {
     color: black;
     text-decoration: none; }
 
+#site-navigation #primary-menu li {
+  padding: 0;
+  margin: 0; }
+  #site-navigation #primary-menu li:last-child {
+    border: 2px solid black; }
+  #site-navigation #primary-menu li a {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: Uppercase; }
+
 .home-header h1 {
   font-size: 100px;
   font-weight: 600;
@@ -335,6 +346,8 @@ big {
   padding: 20px 30px 20px 30px;
   text-align: center;
   font-size: 15px; }
+  .button:visited {
+    color: #CDA177; }
 
 .articles {
   text-align: center; }
@@ -432,6 +445,18 @@ big {
   .consultation p a {
     color: black;
     text-decoration: none; }
+
+.services-page a {
+  color: black;
+  text-decoration: none; }
+  .services-page a:visited {
+    color: black; }
+
+.single-article h2 {
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -864,7 +889,8 @@ object {
 # Layout
 --------------------------------------------------------------*/
 .site-header {
-  background-color: #F6F6F6; }
+  background-color: #F6F6F6;
+  text-align: center; }
 
 .office-info {
   max-width: 80%;
@@ -887,6 +913,16 @@ object {
       -ms-flex-direction: row;
           flex-direction: row;
   border-bottom: 2px solid black; }
+
+#site-navigation #primary-menu {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+  #site-navigation #primary-menu li {
+    margin: 0;
+    margin: 20px 5px 20px 5px; }
+    #site-navigation #primary-menu li a {
+      padding: 10px; }
 
 .home-header {
   display: -webkit-box;
@@ -1091,7 +1127,7 @@ object {
   .single-article .button {
     margin-left: -150px;
     margin-top: -50px; }
-  .single-article h2 {
+  .single-article .post-title {
     text-align: center;
     font-weight: 400;
     font-size: 35px;
@@ -1105,7 +1141,8 @@ object {
     margin-bottom: 90px; }
   .single-article p {
     font-weight: 300;
-    font-size: 15px; }
+    font-size: 15px;
+    text-align: center; }
 
 .services-page {
   display: -webkit-box;

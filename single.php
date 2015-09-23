@@ -15,7 +15,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="single-article">
 			<a href="<?php echo get_site_url(); ?>/articles/" title="link back to articles page" class="link-back button">Go Back</a>
-				<h2><?php echo the_title(); ?></h2>
+				<h2 class="post-title"><?php echo the_title(); ?></h2>
 				<p class="article-date"><?php echo get_the_date(); ?>
 				<p><?php echo the_content(); ?></p>
 			</div>

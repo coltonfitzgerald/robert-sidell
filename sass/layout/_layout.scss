@@ -1,5 +1,6 @@
 .site-header {
 	background-color: #F6F6F6;
+	text-align: center;
 }
 
 .office-info {
@@ -11,6 +12,21 @@
 	justify-content: space-around;
 	flex-direction: row;
 	border-bottom: 2px solid black;
+}
+
+#site-navigation {
+	#primary-menu {
+		max-width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		li {
+			margin: 0;
+			margin: 20px 5px 20px 5px;
+			a {
+				padding: 10px;
+			}
+		}
+	}
 }
 
 .home-header {
@@ -157,7 +173,7 @@
 		margin-left: -150px;
 		margin-top: -50px;
 	}
-	h2 {
+	.post-title {
 		text-align: center;
 		font-weight: 400;
 		font-size: 35px;
@@ -174,6 +190,7 @@
 	p {
 		font-weight: 300;
 		font-size: 15px;
+		text-align: center;
 	}
 }
 

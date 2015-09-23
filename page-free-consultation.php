@@ -1,24 +1,13 @@
 <?php
 /*
-	Template Name: Services Page
+	Template Name: Consultation Page
  */
 
 get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="services-page">
-				<h1 class="page-title">Services</h2>
-				<?php $args = array( 'post_type' => 'services' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
-					<div class="service">
-						<a href="<?php echo get_permalink(); ?>" title="link to service"><h3><?php echo the_title(); ?></h3></a>
-						<p><?php echo the_excerpt(); ?></p>
-					</div>
-				<?php endwhile; ?>
-			</div>
-
-				<?php wp_reset_postdata(); ?>
-
+			<div class="articles-page">
 				<div class="consultation">
 					<h2>Request a Free Consultation</h2>
 					<p class="section-name">PHONE</p>
