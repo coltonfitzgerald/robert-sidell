@@ -142,3 +142,25 @@ textarea {
 		}
 	}
 }	
+
+.articles-page {
+	.article {
+		font-size: 30px;
+		font-weight: 300;
+		text-align: left;
+		h3 {
+			text-align: center;
+		}
+		.article-date {
+			font-size: 15px;
+			font-weight: 300;
+		}
+		p {
+			font-weight: 15px;
+			font-weight: 300;
+		}
+		.button {
+			text-align: left;
+		}
+	}
+}
