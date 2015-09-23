@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 gulp.task('serve', ['sass'], function() {
 
 		browserSync.init({
-				proxy: "localhost/sidell"
+				proxy: "robertsidell.dev"
 		});
 
 		gulp.watch("sass/**/*.scss", ['sass']);
