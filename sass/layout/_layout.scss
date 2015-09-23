@@ -1,0 +1,134 @@
+.office-info {
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+	margin-top: 18px;
+}
+
+.home-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.services {
+	text-align: center;
+}
+
+.service-list {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 75px;
+}
+
+.service {
+	max-width: 20%;
+	margin: 22.5px;
+}
+
+.contact-links {
+	text-align: center;
+	margin-top: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	.button {
+		width: 260px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+
+.articles {
+	margin-top: 130px;
+	max-width: 80%;
+	.article-list {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 60px;
+	}
+	.article {
+		max-width: 40%;
+	}
+	.article:first-child {
+		margin-right: 50px;
+	}
+}
+
+.radio-show {
+	margin-top: 120px;
+		.radio-wrap {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		.radio-info {
+			max-width: 300px;
+			margin-left: 70px;
+		}
+	}
+}
+
+.site-footer {
+	background-color: #282828;
+	min-width: 100%;
+	color: white;
+	margin-top: 50px;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	.footer-row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 60%;
+		margin: 0 auto;
+		margin-top: 50px;
+		.service {
+			min-width: 100%;
+			h3 {
+				margin: 0;
+				padding: 0;
+				margin-bottom: 7px;
+			}
+		}
+		.article {
+			margin-bottom: 7px;
+		}
+	}
+	.section-name {
+		margin-bottom: 40px;
+	}
+	.disclaimer {
+		font-style: italic;
+		font-size: 14px;
+		font-weight: 300;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.contact-links {
+		margin-top: 50px;
+		.button {
+			border-color: white;
+		}
+	}
+	.copyright {
+		font-size: 14px;
+		font-weight: 300;
+		text-align: center;
+		margin-top: 50px;
+	}
+}
