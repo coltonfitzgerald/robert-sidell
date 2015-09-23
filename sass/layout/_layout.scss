@@ -259,8 +259,9 @@
 }
 
 .contact-form {
+	width: 800px;
+	margin: 0 auto;
 	.gform_body {
-		width: 800px;
 		#field_1_2, #field_1_3 {
 			display: inline-block;
 			min-width: 400px;
