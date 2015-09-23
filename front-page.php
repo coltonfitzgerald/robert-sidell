@@ -22,7 +22,7 @@ get_header(); ?>
 				<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 4 ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="service">
 						<h3><?php echo the_title(); ?></h3>
-						<p><?php echo the_content(); ?></p>
+						<p><?php echo the_excerpt(); ?></p>
 					</div>
 				<?php endwhile; ?>
 				</div>
