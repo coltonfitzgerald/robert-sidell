@@ -1182,6 +1182,9 @@ object {
     font-weight: 300;
     font-size: 15px;
     text-align: center; }
+  .single-article #disqus_thread {
+    max-width: 50%;
+    margin: 0 auto; }
 
 .services-page {
   display: -webkit-box;
