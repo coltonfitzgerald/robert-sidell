@@ -57,7 +57,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="consultation">
-					<h2 class="contact-page-form">Feel Free to Message</h2>
+					<h2>Request a Free Consultation</h2>
 					<p class="section-name">PHONE</p>
 					<div class="phone-row">
 						<div class="phone-column">
@@ -71,6 +71,7 @@ get_header(); ?>
 					</div>
 					<p class="section-name">EMAIL</p>
 					<p><a href="mailto:robert@robertsidell.com">robert@robertsidell.com</a></p>
+					<p class="contact-page-form">Feel Free to Message</p>
 					<div class="contact-form">
 						<?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
 					</div>
