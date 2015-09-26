@@ -1383,3 +1383,7 @@ object {
       border-right: 1px solid white; }
       .footer-menu #menu-footer-menu li:last-child {
         border: none; }
+
+#layout {
+  max-width: 800px;
+  margin: 0 auto; }
