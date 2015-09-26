@@ -51,7 +51,7 @@
 			<a href="tel:+17023843847" title="link to office number" class="button phone-link">Call 702-384-3847</a>
 		</div>
 		<p class="copyright">&copy; <?php echo Date('Y'); ?> Sidell Law Offices | Built by <a href="https://cherrypopdesigns.com" title="link to Cherry Pop Designs">Cherry Pop Designs</a> | All Rights Reserved.</p>
-		<div class="footer-menu">FOOTER MENU GOES HERE</div>
+		<div class="footer-menu"><?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?></div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
