@@ -318,3 +318,22 @@
 		}
 	}
 }
+
+.footer-menu {
+	max-width: 700px;
+	margin: 0 auto;
+	#menu-footer-menu {
+		list-style: none;
+		li {
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 300;
+			margin: 0;
+			padding: 0 5px 0 2.5px;
+			border-right: 1px solid white;
+			&:last-child {
+				border: none;
+			}
+		}
+	}
+}
