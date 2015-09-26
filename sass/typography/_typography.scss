@@ -306,3 +306,18 @@ a:hover {
 		}
 	}
 }
+
+.about-post {
+	.caption {
+		font-size: 25px;
+		font-weight: 300;
+	}
+	p {
+		font-weight: 300;
+		font-size: 15px;
+		margin: 25px;
+		&:first-child {
+			margin-top: 50px;
+		}	
+	}
+}
