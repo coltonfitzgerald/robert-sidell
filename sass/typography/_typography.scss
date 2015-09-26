@@ -74,13 +74,17 @@ a:hover {
 }
 
 .home-section {
-	max-width: 80%;
+	max-width: 1000px;
 	margin: 0 auto;
 	.section-name {
 		color: $section-name-color;
 		font-size: 16px;
 		text-align: center;
 	}
+	a {
+		color: black;
+		text-decoration: none;
+	 }
 }
 
 .about {
@@ -114,7 +118,7 @@ a:hover {
 }
 
 .button {
-	color: $section-name-color;
+	color: $section-name-color !important;
 	text-decoration: none;
 	border: 1px solid $section-name-color;
 	padding: 20px 30px 20px 30px;
@@ -126,7 +130,7 @@ a:hover {
 	&:hover {
 		transition: 250ms;
 		background-color: $section-name-color;
-		color: white;
+		color: white !important;
 	}
 }
 

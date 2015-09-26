@@ -21,7 +21,7 @@ get_header(); ?>
 				<div class="service-list">
 				<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 4, 'orderby'=> 'title', 'order' => 'ASC' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="service">
-						<h3><?php echo the_title(); ?></h3>
+						<a href="<?php echo get_permalink(); ?>" title="link to service"><h3><?php echo the_title(); ?></h3></a>
 						<p><?php echo the_excerpt(); ?></p>
 					</div>
 				<?php endwhile; ?>
@@ -52,7 +52,7 @@ get_header(); ?>
 				<div class="radio-wrap">
 					<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="radio show logo" />
 					<div class="radio-info">
-						<p>Tune to 100.5 KXNT Las Vegas to listen to Success and the Law with me, Robert Sidell</p>
+						<p>Tune to 840AM Las Vegas to listen to Success and the Law with me, Robert Sidell</p>
 						<a href="#" title="link to radio page" class="button radio-link">View Show Recordings</a>
 					</div>
 				</div>

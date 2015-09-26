@@ -42,7 +42,7 @@
 			<div class="radio-show-footer">
 				<p class="section-name">RADIO SHOW</p>
 				<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="radio show logo" />
-				<p>100.5 KXNT Las Vegas</p>
+				<p>840AM Las Vegas</p>
 			</div>
 		</div>
 		<p class="disclaimer">Email or contact does not create an attorney and client relationship until there is a writen, signed container contract</p>

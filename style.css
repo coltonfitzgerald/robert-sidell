@@ -332,12 +332,15 @@ a:hover {
   margin: 0; }
 
 .home-section {
-  max-width: 80%;
+  max-width: 1000px;
   margin: 0 auto; }
   .home-section .section-name {
     color: #CDA177;
     font-size: 16px;
     text-align: center; }
+  .home-section a {
+    color: black;
+    text-decoration: none; }
 
 .about {
   margin-top: 70px; }
@@ -364,7 +367,7 @@ a:hover {
     font-size: 15px; }
 
 .button {
-  color: #CDA177;
+  color: #CDA177 !important;
   text-decoration: none;
   border: 1px solid #CDA177;
   padding: 20px 30px 20px 30px;
@@ -376,7 +379,7 @@ a:hover {
     -webkit-transition: 250ms;
             transition: 250ms;
     background-color: #CDA177;
-    color: white; }
+    color: white !important; }
 
 .articles {
   text-align: center; }
@@ -950,7 +953,7 @@ object {
   text-align: center; }
 
 .office-info {
-  max-width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   display: -webkit-box;
@@ -977,7 +980,7 @@ object {
     margin-right: 50px; }
 
 #site-navigation #primary-menu {
-  max-width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   display: table; }
@@ -1029,7 +1032,7 @@ object {
   margin-bottom: 75px; }
 
 .service {
-  max-width: 20%;
+  max-width: 200px;
   margin: 22.5px; }
 
 .contact-links {
@@ -1059,7 +1062,7 @@ object {
 
 .articles {
   margin-top: 130px;
-  max-width: 80%; }
+  max-width: 1000px; }
   .articles .article-list {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1131,7 +1134,7 @@ object {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
             align-items: flex-start;
-    max-width: 60%;
+    max-width: 700px;
     margin: 0 auto;
     margin-top: 50px; }
     .site-footer .footer-row .service {
@@ -1178,7 +1181,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   .articles-page .article {
-    max-width: 30%;
+    max-width: 430px;
     margin-top: 100px;
     margin-left: 25px;
     margin-right: 25px; }
@@ -1186,7 +1189,7 @@ object {
 .single-article {
   margin: 0 auto;
   margin-top: 100px;
-  max-width: 60%; }
+  max-width: 700px; }
   .single-article .button {
     margin-left: -150px;
     margin-top: -50px; }
@@ -1205,9 +1208,9 @@ object {
   .single-article p {
     font-weight: 300;
     font-size: 15px;
-    text-align: center; }
+    text-align: left; }
   .single-article #disqus_thread {
-    max-width: 50%;
+    max-width: 700px;
     margin: 0 auto; }
 
 .services-page {
@@ -1224,7 +1227,7 @@ object {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 70%;
+  max-width: 1000px;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
@@ -1256,7 +1259,7 @@ object {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 30%;
+    max-width: 100px;
     margin-left: 30px;
     margin-right: 30px; }
 
