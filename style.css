@@ -362,9 +362,6 @@ a:hover {
   .service p {
     font-weight: 300;
     font-size: 15px; }
-  .service a {
-    color: black;
-    text-decoration: none; }
 
 .button {
   color: #CDA177;
@@ -485,12 +482,6 @@ a:hover {
     color: black;
     text-decoration: none; }
 
-.services-page a {
-  color: black;
-  text-decoration: none; }
-  .services-page a:visited {
-    color: black; }
-
 .single-article h2 {
   font-weight: 300;
   font-size: 25px;
@@ -527,6 +518,10 @@ a:hover {
   margin: 25px; }
   .about-post p:first-child {
     margin-top: 50px; }
+
+.contact-page-form {
+  font-size: 16px;
+  text-align: left; }
 
 /*--------------------------------------------------------------
 # Elements

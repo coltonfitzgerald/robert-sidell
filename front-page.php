@@ -21,8 +21,9 @@ get_header(); ?>
 				<div class="service-list">
 				<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 4, 'orderby'=> 'title', 'order' => 'ASC' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="service">
-						<a href="<?php echo get_permalink(); ?>" title="link to service"><h3><?php echo the_title(); ?></h3></a>
+						<h3><?php echo the_title(); ?></h3>
 						<p><?php echo the_excerpt(); ?></p>
+						<a href="<?php echo get_permalink(); ?>" class="button" title="link to service">Learn More</a>
 					</div>
 				<?php endwhile; ?>
 				</div>
