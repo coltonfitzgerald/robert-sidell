@@ -81,10 +81,6 @@ a:hover {
 		font-size: 16px;
 		text-align: center;
 	}
-	a {
-		color: black;
-		text-decoration: none;
-	 }
 }
 
 .about {
@@ -115,10 +111,14 @@ a:hover {
 		font-weight: 300;
 		font-size: 15px;
 	}
+	a {
+		color: black;
+		text-decoration: none;
+	 }
 }
 
 .button {
-	color: $section-name-color !important;
+	color: $section-name-color;
 	text-decoration: none;
 	border: 1px solid $section-name-color;
 	padding: 20px 30px 20px 30px;
@@ -130,7 +130,7 @@ a:hover {
 	&:hover {
 		transition: 250ms;
 		background-color: $section-name-color;
-		color: white !important;
+		color: white;
 	}
 }
 
