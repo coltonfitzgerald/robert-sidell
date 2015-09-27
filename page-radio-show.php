@@ -25,8 +25,8 @@ get_header(); ?>
 					<div class="broadcast-wrap">
 					<div class="broadcast-info">
 						<h3 class="show-name"><?php echo the_title(); ?></h3>
-						<p class="show-date">Show Date: <?php get_field("broadcast_date"); ?></p>
-						<?php if(the_field("broadcast_guests")) : ?>
+						<p class="show-date">Show Date: <?php the_field("broadcast_date"); ?></p>
+						<?php if(get_field("broadcast_guests")) : ?>
 							<p class="show-guests">Guests: <?php the_field("broadcast_guests"); ?></p>
 						<?php endif; ?>
 					</div>
