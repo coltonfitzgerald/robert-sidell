@@ -24,7 +24,7 @@ get_header(); ?>
 				<?php $args = array( 'post_type' => 'broadcast' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="broadcast-wrap">
 					<div class="broadcast-info">
-						<h3 class="show-name"><?php the_field("broadcast_title"); ?></h3>
+						<h3 class="show-name"><?php echo the_title(); ?></h3>
 						<p class="show-date">Show Date: <?php the_field("broadcast_date"); ?></p>
 						<?php if(the_field("broadcast_guests")) : ?>
 							<p class="show-guests">Guests: <?php the_field("broadcast_guests"); ?></p>
