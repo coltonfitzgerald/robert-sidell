@@ -25,6 +25,9 @@ get_header(); ?>
 					<div class="broadcast-info">
 						<h3 class="show-name"><?php the_field("broadcast_title"); ?></h3>
 						<p class="show-date"><?php the_field("broadcast_date"); ?></p>
+						<?php if(the_field("broadcast_guests")) : ?>
+							<p class="show-guests"><?php the_field("broadcast_guests"); ?></p>
+						<?php endif; ?>
 					</div>
 					<div class="audio-file">
 						<audio controls>
