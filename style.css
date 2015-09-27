@@ -1479,6 +1479,11 @@ object {
   margin-right: 25px;
   text-align: center;
   vertical-align: top; }
+  .broadcast-wrap p {
+    margin: 0;
+    padding: 0; }
+  .broadcast-wrap audio {
+    margin-top: 25px; }
 
 .broadcast-text {
   width: 500px;

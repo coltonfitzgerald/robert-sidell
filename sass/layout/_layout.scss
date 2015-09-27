@@ -360,6 +360,13 @@
 	margin-right: 25px;
 	text-align: center;
 	vertical-align: top;
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	audio {
+		margin-top: 25px;
+	}
 }
 
 .broadcast-text {
