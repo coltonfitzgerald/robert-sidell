@@ -315,3 +315,41 @@ a:hover {
 	color: $section-name-color;
 	max-width: 800px;
 }
+
+.radio-header {
+	color: white;
+	.overlay {
+		min-width: 100%;
+		min-height: 100%;
+		background-color: rgba(0,0,0,0.4);
+		display: flex;
+		align-items: center;
+		.radio-wrap {
+			max-width: 900px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			margin: 0 auto;
+			text-align: center;
+			img {
+				margin: 0;
+				padding: 0;
+			}
+			.page-title {
+				margin-top: 50px;
+				margin-bottom: 40px;
+			}
+			.radio-station {
+				font-size: 20px;
+				margin-top: 25px;
+			}
+		}
+	}
+	.page-title {
+		margin: 0;
+	}
+	p {
+		margin: 0;
+	}
+}
