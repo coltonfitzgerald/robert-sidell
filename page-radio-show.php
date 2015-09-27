@@ -24,7 +24,7 @@ get_header(); ?>
 				<?php $args = array( 'post_type' => 'broadcast' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="audio-file">
 						<audio controls>
-		    				<source src="<?php get_field("broadcast_audio"); ?>" type="audio/mp3">
+		    				<source src="<?php the_field("broadcast_audio"); ?>" type="audio/mp3">
 		  				</audio>
 	  				</div>
 	  				<div class="broadcast-description"><?php the_content(); ?></div>
