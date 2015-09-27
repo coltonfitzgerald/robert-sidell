@@ -349,3 +349,23 @@
 	background-image: url('img/radio-header.jpg');
 }
 
+.broadcast-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	max-width: 500px;
+	display: inline-block;
+}
+
+.broadcast-text {
+	max-width: 500px;
+	display: inline-block;
+}
+
+.audio-file {
+	min-width: 100%;
+	audio {
+		min-width: 100%;
+	}
+}

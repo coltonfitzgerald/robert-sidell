@@ -353,3 +353,19 @@ a:hover {
 		margin: 0;
 	}
 }
+
+.single-broadcast {
+	.show-name {
+		font-size: 20px;
+		font-weight: 300;
+	}
+	.show-date,.show-guests {
+		font-size: 15px;
+		font-weight: 300;
+		font-style: italic;
+	}
+	.broadcast-text {
+		font-weight: 300;
+		font-size: 15px;
+	}
+}

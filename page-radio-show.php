@@ -22,17 +22,19 @@ get_header(); ?>
 			<div class="broadcast-listings">
 				<div class="single-broadcast">
 				<?php $args = array( 'post_type' => 'broadcast' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+					<div class="broadcast-wrap">
 					<div class="broadcast-info">
 						<h3 class="show-name"><?php the_field("broadcast_title"); ?></h3>
-						<p class="show-date"><?php the_field("broadcast_date"); ?></p>
+						<p class="show-date">Show Date: <?php the_field("broadcast_date"); ?></p>
 						<?php if(the_field("broadcast_guests")) : ?>
-							<p class="show-guests"><?php the_field("broadcast_guests"); ?></p>
+							<p class="show-guests">Guests: <?php the_field("broadcast_guests"); ?></p>
 						<?php endif; ?>
 					</div>
 					<div class="audio-file">
 						<audio controls>
 		    				<source src="<?php the_field("broadcast_audio"); ?>" type="audio/mp3">
 		  				</audio>
+	  				</div>
 	  				</div>
 	  				<div class="broadcast-text"><?php the_content(); ?></div>
 				<?php endwhile; ?>
