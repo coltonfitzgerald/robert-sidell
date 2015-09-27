@@ -354,13 +354,15 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-	max-width: 500px;
+	width: 500px;
 	display: inline-block;
+	margin-right: 25px;
 }
 
 .broadcast-text {
-	max-width: 500px;
+	-width: 500px;
 	display: inline-block;
+	margin-left: 25px;
 }
 
 .audio-file {
@@ -368,4 +370,8 @@
 	audio {
 		min-width: 100%;
 	}
+}
+
+.single-broadcast {
+	margin: 0 auto;
 }
