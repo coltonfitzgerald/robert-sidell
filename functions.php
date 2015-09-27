@@ -156,8 +156,15 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+/* Changes Maximum upload size */
 @ini_set( 'upload_max_size' , '256M' );
 
 @ini_set( 'post_max_size', '256');
 
 @ini_set( 'max_execution_time', '300' );
+
+/* Changes excerpt length */
+function custom_excerpt_length( $length ) {
+	return 25;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
