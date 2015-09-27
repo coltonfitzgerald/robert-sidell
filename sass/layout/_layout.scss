@@ -358,6 +358,7 @@
 	display: inline-block;
 	margin-right: 25px;
 	text-align: center;
+	vertical-align: top;
 }
 
 .broadcast-text {
@@ -375,4 +376,8 @@
 
 .single-broadcast {
 	margin: 0 auto;
+	max-width: 1100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #3F3F3F;
 }
