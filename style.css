@@ -1473,14 +1473,20 @@ object {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  max-width: 500px;
-  display: inline-block; }
+  width: 500px;
+  display: inline-block;
+  margin-right: 25px;
+  text-align: center; }
 
 .broadcast-text {
-  max-width: 500px;
-  display: inline-block; }
+  -width: 500px;
+  display: inline-block;
+  margin-left: 25px; }
 
 .audio-file {
   min-width: 100%; }
   .audio-file audio {
     min-width: 100%; }
+
+.single-broadcast {
+  margin: 0 auto; }
