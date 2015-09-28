@@ -29,11 +29,18 @@
 				<h2>SIDELL LAW OFFICES</h2>
 			</div>
 			<div class="office-number">
-				<h2>CALL US <a href="tel:+1702384387" title="office phone number">702.384.3847</a></h2>
+				<h2>CALL US <a href="tel:+17023843847" title="office phone number">702.384.3847</a></h2>
 			</div>
 		</div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<div class="mobile-menu"><?php wp_nav_menu( array( 'theme_location' => 'mobile', 'menu_id' => 'mobile-menu' ) ); ?></div>
+			<div class="mobile-menu">
+				<div class="hamburger-menu">
+					<svg width="70px" fill="black" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></path></svg>
+				</div>
+				<div class="mobile-wrap">
+					<?php wp_nav_menu( array( 'theme_location' => 'mobile', 'menu_id' => 'mobile-menu' ) ); ?>
+				</div>
+			</div>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'robert-sidell' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
