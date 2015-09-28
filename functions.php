@@ -46,6 +46,7 @@ function robert_sidell_setup() {
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'robert-sidell' ),
 		'secondary' => __('Footer Menu', 'robert-sidell'),
+		'mobile' => __('Mobile Menu', 'robert-sidell'),
 	) );
 
 	/*
@@ -159,7 +160,7 @@ require get_template_directory() . '/inc/jetpack.php';
 /* Changes Maximum upload size */
 @ini_set( 'upload_max_size' , '256M' );
 
-@ini_set( 'post_max_size', '256');
+@ini_set( 'post_max_size', '256M');
 
 @ini_set( 'max_execution_time', '300' );
 
