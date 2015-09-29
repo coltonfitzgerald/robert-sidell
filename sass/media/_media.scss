@@ -36,3 +36,141 @@ object {
 	background-repeat: no-repeat;
 	color: white;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+	/* Header Styles */
+	.office-info {
+		font-size: 12px !important;
+		flex-direction: column !important;
+		margin: 0 auto;
+		.office-name {
+			margin-left: 0;
+		}
+		.office-number {
+			margin-right: 0;
+		}
+	}
+
+	/* Home Styles */
+
+	.home-header {
+		h1 {
+			font-size: 40px;
+		}
+		h2 {
+			font-size: 20px;
+		}
+	}
+	.home-section {
+		.article-list {
+			flex-direction: column;
+			.article {
+				min-width: 80%;
+				margin: 0 auto;
+			}
+		}
+	}
+	.contact-links {
+		flex-direction: column !important;
+	}
+	.radio-wrap {
+		flex-direction: column !important;
+		img {
+			max-width: 80%;
+			margin: 0 auto;
+		}
+		.radio-info {
+			margin: 0 auto !important;
+		}
+	}
+
+	/* Footer Styles */
+
+	footer {
+		.disclaimer {
+			max-width: 80%;
+			margin: 0 auto;
+		}
+		.footer-row {
+			flex-direction: column !important;
+			.articles-footer, .services-footer, .radio-show-footer {
+				min-width: 80%;
+				margin: 0 auto;
+				text-align: center;
+			}
+		}
+		.contact-links {
+			a {
+				margin: 15px auto !important;
+			}
+		}
+		#menu-footer-menu {
+			padding: 10px 0 10px 0;
+			margin: 0 auto;
+			max-width: 80%;
+			text-align: center;
+		}
+	}
+
+	/* About Styles */
+
+	.about-banner {
+		height: auto;
+		.book-wrap {
+			flex-direction: column !important;
+			.the-gateway {
+				margin: 0 auto !important;
+				padding-top: 20px;
+			}
+			.banner-text {
+				margin: 0 auto !important;
+				max-width: 80%;
+			}
+		}
+		.button {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+	}
+
+	/* Contact Form Styles */
+	.contact-form {
+		max-width: 80%;
+	}
+
+	/* Radio Show Styles */
+	
+	.radio-header {
+		height: 100vh;
+		.overlay {
+			height: calc(80vh - 163px);
+		}
+	}
+
+	.broadcast-wrap, .broadcast-text {
+		max-width: 80%;
+	}
+
+	/* Contact Page Styles */
+
+	.map {
+		max-width: 80%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.contact-page-form {
+		max-width: 80%;
+	}
+
+	/* Consultation Page Styles */
+
+	.consultation {
+		max-width: 100%;
+		h2 {
+			font-size: 20px;
+		}
+	}
+}

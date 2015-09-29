@@ -38,10 +38,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Asides
 	## Comments
 # Infinite scroll
+# Layout
 # Media
 	## Captions
 	## Galleries
-# Layout
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Normalize
@@ -225,7 +225,7 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-body,
+Fbody,
 button,
 input,
 select,
@@ -944,79 +944,6 @@ a {
   display: block; }
 
 /*--------------------------------------------------------------
-# Media
---------------------------------------------------------------*/
-.page-content .wp-smiley,
-.entry-content .wp-smiley,
-.comment-content .wp-smiley {
-  border: none;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 0; }
-
-/* Make sure embeds and iframes fit their containers. */
-embed,
-iframe,
-object {
-  max-width: 100%; }
-
-/*--------------------------------------------------------------
-## Captions
---------------------------------------------------------------*/
-.wp-caption {
-  margin-bottom: 1.5em;
-  max-width: 100%; }
-  .wp-caption img[class*="wp-image-"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  .wp-caption .wp-caption-text {
-    margin: 0.8075em 0; }
-
-.wp-caption-text {
-  text-align: center; }
-
-/*--------------------------------------------------------------
-## Galleries
---------------------------------------------------------------*/
-.gallery {
-  margin-bottom: 1.5em; }
-
-.gallery-item {
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  width: 100%; }
-  .gallery-columns-2 .gallery-item {
-    max-width: 50%; }
-  .gallery-columns-3 .gallery-item {
-    max-width: 33.33%; }
-  .gallery-columns-4 .gallery-item {
-    max-width: 25%; }
-  .gallery-columns-5 .gallery-item {
-    max-width: 20%; }
-  .gallery-columns-6 .gallery-item {
-    max-width: 16.66%; }
-  .gallery-columns-7 .gallery-item {
-    max-width: 14.28%; }
-  .gallery-columns-8 .gallery-item {
-    max-width: 12.5%; }
-  .gallery-columns-9 .gallery-item {
-    max-width: 11.11%; }
-
-.gallery-caption {
-  display: block; }
-
-.admin-bar .home-header {
-  height: calc(100vh - 163px - 32px); }
-
-.home-header {
-  height: calc(100vh - 163px);
-  min-width: 100%;
-  background-repeat: no-repeat;
-  color: white; }
-
-/*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
 .site-header {
@@ -1512,8 +1439,8 @@ object {
       display: block;
       z-index: 999;
       position: absolute;
-      top: 40px;
-      right: 25px; }
+      top: 10px;
+      right: 10px; }
     .mobile-menu .mobile-wrap {
       display: none; }
     .mobile-menu #mobile-menu {
@@ -1567,3 +1494,185 @@ object {
 
 .menu-toggle {
   display: none !important; }
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0; }
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%; }
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%; }
+  .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .wp-caption .wp-caption-text {
+    margin: 0.8075em 0; }
+
+.wp-caption-text {
+  text-align: center; }
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+  margin-bottom: 1.5em; }
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%; }
+  .gallery-columns-2 .gallery-item {
+    max-width: 50%; }
+  .gallery-columns-3 .gallery-item {
+    max-width: 33.33%; }
+  .gallery-columns-4 .gallery-item {
+    max-width: 25%; }
+  .gallery-columns-5 .gallery-item {
+    max-width: 20%; }
+  .gallery-columns-6 .gallery-item {
+    max-width: 16.66%; }
+  .gallery-columns-7 .gallery-item {
+    max-width: 14.28%; }
+  .gallery-columns-8 .gallery-item {
+    max-width: 12.5%; }
+  .gallery-columns-9 .gallery-item {
+    max-width: 11.11%; }
+
+.gallery-caption {
+  display: block; }
+
+.admin-bar .home-header {
+  height: calc(100vh - 163px - 32px); }
+
+.home-header {
+  height: calc(100vh - 163px);
+  min-width: 100%;
+  background-repeat: no-repeat;
+  color: white; }
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+  /* Header Styles */
+  .office-info {
+    font-size: 12px !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    margin: 0 auto; }
+    .office-info .office-name {
+      margin-left: 0; }
+    .office-info .office-number {
+      margin-right: 0; }
+  /* Home Styles */
+  .home-header h1 {
+    font-size: 40px; }
+  .home-header h2 {
+    font-size: 20px; }
+  .home-section .article-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .home-section .article-list .article {
+      min-width: 80%;
+      margin: 0 auto; }
+  .contact-links {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important; }
+  .radio-wrap {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important; }
+    .radio-wrap img {
+      max-width: 80%;
+      margin: 0 auto; }
+    .radio-wrap .radio-info {
+      margin: 0 auto !important; }
+  /* Footer Styles */
+  footer .disclaimer {
+    max-width: 80%;
+    margin: 0 auto; }
+  footer .footer-row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important; }
+    footer .footer-row .articles-footer, footer .footer-row .services-footer, footer .footer-row .radio-show-footer {
+      min-width: 80%;
+      margin: 0 auto;
+      text-align: center; }
+  footer .contact-links a {
+    margin: 15px auto !important; }
+  footer #menu-footer-menu {
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center; }
+  /* About Styles */
+  .about-banner {
+    height: auto; }
+    .about-banner .book-wrap {
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: column !important;
+          -ms-flex-direction: column !important;
+              flex-direction: column !important; }
+      .about-banner .book-wrap .the-gateway {
+        margin: 0 auto !important;
+        padding-top: 20px; }
+      .about-banner .book-wrap .banner-text {
+        margin: 0 auto !important;
+        max-width: 80%; }
+    .about-banner .button {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+  /* Contact Form Styles */
+  .contact-form {
+    max-width: 80%; }
+  /* Radio Show Styles */
+  .radio-header {
+    height: 100vh; }
+    .radio-header .overlay {
+      height: calc(80vh - 163px); }
+  .broadcast-wrap, .broadcast-text {
+    max-width: 80%; }
+  /* Contact Page Styles */
+  .map {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto; }
+  .contact-page-form {
+    max-width: 80%; }
+  /* Consultation Page Styles */
+  .consultation {
+    max-width: 100%; }
+    .consultation h2 {
+      font-size: 20px; } }
