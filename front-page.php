@@ -10,11 +10,13 @@ get_header(); ?>
 			<div class="home-header parallax-window" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-header.jpg">
 				<h1>SIDELL</h1>
 				<h2>LAW OFFICES</h2>
+				<p class="tag-line">You can pursue your rights and maintain your integrity</p>
 			</div>
 			<div class="home-section about">
 				<p class="section-name">SIDELL LAW OFFICES</p>
 				<h3>Personal Injury Lawyer</h3>
 				<p class="about-info">Unfortunately, accidents occur nearly every day in the Las Vegas, North Las Vegas, and Henderson areas. These unexpected events can happen in an instant, and can leave the victims severely injured. Fortunately for those victims, Robert Sidell is available to help in bringing accident claims.</p>
+				<p class="no-fee">No fee unless you win</p>
 			</div>
 			<div class="home-section services">
 				<p class="section-name">SERVICES</p>
@@ -55,7 +57,7 @@ get_header(); ?>
 					<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="radio show logo" />
 					<div class="radio-info">
 						<p>Tune to 840AM Las Vegas to listen to Success and the Law with me, Robert Sidell</p>
-						<a href="#" title="link to radio page" class="button radio-link">View Show Recordings</a>
+						<a href="<?php echo get_site_url(); ?>/radio-show/" title="link to radio page" class="button radio-link">View Show Recordings</a>
 					</div>
 				</div>
 			</div>

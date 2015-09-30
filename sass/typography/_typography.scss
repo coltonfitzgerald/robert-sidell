@@ -88,6 +88,15 @@ a:hover {
 		font-weight: 600;
 		margin: 0;
 	}
+	.tag-line {
+		font-size: 25px;
+		font-weight: 600;
+		margin: 0;
+		padding: 0;
+		margin-top: 40px;
+		max-width: 460px;
+		text-align: center;
+	}
 }
 
 .home-section {
@@ -108,13 +117,20 @@ a:hover {
 		text-align: center;
 		font-weight: 300;
 		font-size: 15px;
-		margin-bottom: 100px;
 	}
 	h3 {
 		font-size: 35px;
 		font-weight: 300;
 		margin: 40px auto;
 		text-align: center;
+	}
+	.no-fee {
+		font-weight: 600;
+		font-size: 13px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 100px;
 	}
 }
 
@@ -384,5 +400,14 @@ a:hover {
 	.broadcast-text {
 		font-weight: 300;
 		font-size: 15px;
+	}
+}
+
+.live-link {
+	color: white;
+	border-color: white;
+	&:hover {
+		background-color: white;
+		color: black;
 	}
 }

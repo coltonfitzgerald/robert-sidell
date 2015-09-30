@@ -20,7 +20,8 @@ get_header(); ?>
 						<p class="radio-station">840AM Las Vegas</p>
 						<p>Tune in to 840AM every Sunday at 6pm to listen LIVE</p>
 						<p>or</p>
-						<p>Listen to previous recordings below</p>
+						<p class="last-radio-p">Listen to previous recordings below</p>
+						<a href="http://betaplayer.radio.com/player/kxnt-newsradio" title="link to home page" class="button live-link">Listen LIVE</a>
 					</div>
 				</div>
 			</div>
