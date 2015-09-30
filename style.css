@@ -1675,4 +1675,7 @@ object {
   .consultation {
     max-width: 100%; }
     .consultation h2 {
-      font-size: 20px; } }
+      font-size: 20px; }
+  .gform_body #field_1_2, #field_1_3 {
+    display: block;
+    max-width: 220px !important; } }
