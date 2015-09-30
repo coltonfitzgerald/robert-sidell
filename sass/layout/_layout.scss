@@ -327,6 +327,8 @@
 .footer-menu {
 	max-width: 700px;
 	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 10px;
 	#menu-footer-menu {
 		list-style: none;
 		li {
@@ -350,7 +352,7 @@
 
 #bgvid {
 	position: absolute;
-	height: calc(100vh - 163px);
+	height: calc(100vh - 99px);
 	min-width: 100%;
 	z-index: -999;
 	overflow:hidden;
@@ -484,4 +486,42 @@
 
 .last-radio-p {
 	margin-bottom: 30px !important;
+}
+
+.service {
+	p {
+		margin-bottom: 20px;
+	}
+	.button {
+		display: block;
+		max-width: 138px;
+	}
+}
+
+.single-article {
+	.post-title {
+		margin-bottom: 20px;
+	}
+}
+
+.radio-wrap {
+	img {
+		width: 230px;
+		height: auto;
+	}
+	.radio-station{
+		margin-bottom: 20px;
+	}
+	.button {
+		display: block;
+		margin-bottom: 64px;
+	}
+}
+
+.section-name {
+	margin-bottom: 20px !important;
+}
+
+.bolded-title {
+	margin-bottom: 10px !important;
 }

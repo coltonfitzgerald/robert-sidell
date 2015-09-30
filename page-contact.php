@@ -13,13 +13,13 @@ get_header(); ?>
 					<div class="map-aside">
 						<div class="section">
 							<p class="section-name">LOCATION</p>
-							<strong><p>Main Office:</p></strong>
+							<strong><p class="bolded-title">Main Office:</p></strong>
 							<p>3415 W. Charleston</p>
 							<p>Las Vegas, NV 89102</p>
 						</div>
 						<div class="section">
 							<p class="section-name">PHONE</p>
-							<strong><p>Main Phone:</p></strong>
+							<strong><p class="bolded-title">Main Phone:</p></strong>
 							<p><a href="tel:+17023843847" title="main office phone">702.384.3847</a></p>
 							<p><a href="tel:+18883843847" title="toll free phone">1.888.384.3847</a></p>
 						</div>
@@ -36,13 +36,13 @@ get_header(); ?>
 					<div class="map-aside">
 						<div class="section">
 							<p class="section-name">LOCATION</p>
-							<strong><p>Summerlin Office:</p></strong>
+							<strong><p class="bolded-title">Summerlin Office:</p></strong>
 							<p>3415 W. Charleston</p>
 							<p>Las Vegas, NV 89102</p>
 						</div>
 						<div class="section">
 							<p class="section-name">PHONE</p>
-							<strong><p>Main Phone:</p></strong>
+							<strong><p class="bolded-title">Main Phone:</p></strong>
 							<p><a href="tel:+17023843847" title="main office phone">702.384.3847</a></p>
 							<p><a href="tel:+18883843847" title="toll free phone">1.888.384.3847</a></p>
 						</div>

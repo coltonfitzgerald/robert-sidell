@@ -11,10 +11,11 @@ get_header(); ?>
 				<h1 class="page-title">Services</h2>
 				<?php $args = array( 'post_type' => 'services' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="service">
-						<h3><?php echo the_title(); ?></h3>
+						<a class="service-name-link" href="<?php echo get_permalink(); ?>"><h3><?php echo the_title(); ?></h3></a>
 						<p><?php echo the_excerpt(); ?></p>
 						<a class="button" href="<?php echo get_permalink(); ?>" title="link to service">Learn More</a>
 					</div>
+
 				<?php endwhile; ?>
 			</div>
 

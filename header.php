@@ -26,7 +26,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="office-info">
 			<div class="office-name">
-				<h2>SIDELL LAW OFFICES</h2>
+				<a href="<?php echo get_site_url(); ?>"><h2>SIDELL LAW OFFICES</h2></a>
 				<h3>CALIFORNIA, NEVADA, ARIZONA</h3>
 			</div>
 			<div class="office-number">

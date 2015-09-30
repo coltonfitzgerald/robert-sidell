@@ -31,11 +31,11 @@ a:hover {
 		text-decoration: none;
 	}
 	.office-name {
+		a {
+			color: black;
+		}
 		h2 {
 			margin-bottom: 0;
-			a {
-				font-weight: 600;
-			}
 		}
 		h3 {
 			font-size: 14px;
@@ -410,4 +410,9 @@ a:hover {
 		background-color: white;
 		color: black;
 	}
+}
+
+.service-name-link {
+	color: black;
+	text-decoration: none;
 }
