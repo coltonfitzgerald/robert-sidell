@@ -174,7 +174,12 @@ object {
 		}
 	}
 	.gform_body #field_1_2, #field_1_3 {
-		display: block;
+		display: block !important;
 		max-width: 220px !important;
+		.ginput_container {
+			input {
+				min-width: 100%;
+			}
+		}
 	}
 }
