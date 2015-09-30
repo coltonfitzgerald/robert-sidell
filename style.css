@@ -1080,7 +1080,10 @@ a {
             flex-wrap: wrap;
     margin-top: 60px; }
   .articles .article {
-    max-width: 40%; }
+    max-width: 40%;
+    text-align: left; }
+    .articles .article h3 {
+      text-align: center; }
   .articles .article:first-child {
     margin-right: 50px; }
 

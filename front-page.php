@@ -42,6 +42,7 @@ get_header(); ?>
 						<h3><?php echo the_title(); ?></h3>
 						<p class="article-date"><?php echo get_the_date(); ?>
 						<p><?php echo the_excerpt(); ?></p>
+						<a href="<?php echo get_permalink(); ?>" class="button" title="link to article">Read More</a>
 					</div>
 				<?php $i++; endwhile; ?>
 				<?php endif; ?>
