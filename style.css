@@ -1506,6 +1506,25 @@ a {
 .menu-toggle {
   display: none !important; }
 
+/* Testimonials Page */
+.testimonial-page {
+  max-width: 80%;
+  margin: 50px auto; }
+  .testimonial-page .reviewer {
+    font-size: 17px;
+    font-weight: 300; }
+  .testimonial-page .ttshowcase_rl_date {
+    font-size: 15px;
+    font-weight: 300; }
+  .testimonial-page .ttshowcase_rl_quote {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px;
+    border: 1px solid #C19064; }
+  .testimonial-page .fa-start {
+    color: #C19064 !important;
+    font-size: 24px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
