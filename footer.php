@@ -17,15 +17,17 @@
 		<div class="footer-row">
 			<div class="articles-footer">
 				<p class="section-name">RECENT ARTICLES</p>
-				<?php $i = 1; if (have_posts()) : while ( have_posts() && $i < 5 ) : the_post(); ?>
-					<a href="<?php echo get_permalink(); ?>" title="link to post">
-					<div class="article">
-						<h3><?php echo the_title(); ?></h3>
-						<p class="article-date"><?php echo get_the_date(); ?>
-					</div>
-					</a>
-				<?php $i++; endwhile; ?>
-				<?php endif; ?>
+				<?php // Display blog posts on any page @ http://m0n.co/l
+					$temp = $wp_query; $wp_query= null;
+					$wp_query = new WP_Query(); $wp_query->query('showposts=4');
+					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+						<a href="<?php echo get_permalink(); ?>" title="link to post">
+							<div class="article">
+								<h3><?php echo the_title(); ?></h3>
+								<p class="article-date"><?php echo get_the_date(); ?>
+							</div>
+						</a>
+				<?php endwhile; ?>
 			</div>
 			<div class="services-footer">
 				<p class="section-name">SERVICES</p>

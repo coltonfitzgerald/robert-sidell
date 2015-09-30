@@ -472,22 +472,27 @@
 .testimonials-page {
 	max-width: 80%;
 	margin: 50px auto;
-	.reviewer {
-		font-size: 17px;
-		font-weight: 300;
-	}
-	.ttshowcase_rl_date {
-		font-size: 15px;
-		font-weight: 300;
-	}
-	.ttshowcase_rl_quote {
-		font-size: 15px;
-		font-weight: 300;
-		padding: 20px;
-		border: 1px solid #C19064;
-	}
-	.fa-start {
-		color: #C19064 !important;
-		font-size: 24px;
-	}
+}
+.reviewer {
+	font-size: 17px;
+	font-weight: 300;
+}
+.ttshowcase_rl_date {
+	font-size: 15px;
+	font-weight: 300;
+}
+.ttshowcase_rl_quote {
+	font-size: 15px;
+	font-weight: 300;
+	padding: 20px;
+	border: 1px solid #C19064;
+}
+.fa-star {
+	color: #C19064 !important;
+	font-size: 24px;
+}
+.tt_info-above {
+	max-width: 150px;
+	margin: 0 auto;
+	text-align: center;
 }
