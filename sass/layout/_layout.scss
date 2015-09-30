@@ -534,3 +534,20 @@
 		}
 	}
 }
+
+.testimonial-video {
+	text-align: center;
+	video {
+		max-width: 700px;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 85px;
+		margin-bottom: 85px;
+	}
+}
+
+.testimonials-page {
+	.page-title {
+		margin-bottom: 130px;
+	}
+}
