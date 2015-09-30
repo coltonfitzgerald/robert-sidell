@@ -560,7 +560,6 @@ body {
   .radio-header .overlay {
     min-width: 100%;
     min-height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
