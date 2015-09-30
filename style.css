@@ -1602,6 +1602,10 @@ a {
 .bolded-title {
   margin-bottom: 10px !important; }
 
+.home-section .article .button {
+  display: block;
+  max-width: 138px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
