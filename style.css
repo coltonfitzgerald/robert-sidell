@@ -627,6 +627,9 @@ body {
   color: black;
   text-decoration: none; }
 
+footer .footer-row .article:hover, footer .footer-row .service:hover {
+  opacity: 0.6 !important; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/

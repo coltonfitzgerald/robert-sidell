@@ -420,3 +420,11 @@ body {
 	color: black;
 	text-decoration: none;
 }
+
+footer {
+	.footer-row {
+		.article:hover, .service:hover{
+			opacity: 0.6 !important;
+		}
+	}
+}
