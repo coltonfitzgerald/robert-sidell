@@ -195,4 +195,10 @@ object {
 	.tag-line {
 		font-size: 12px;
 	}
+	.testimonial-video {
+		text-align: center;
+		video {
+			max-width: 100%;
+		}
+	}
 }

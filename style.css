@@ -1813,4 +1813,8 @@ object {
     background-size: cover;
     background-repeat: no-repeat; }
   .tag-line {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .testimonial-video {
+    text-align: center; }
+    .testimonial-video video {
+      max-width: 100%; } }
