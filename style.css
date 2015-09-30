@@ -290,6 +290,9 @@ a:hover {
           transition: 250ms;
   opacity: 0.6; }
 
+body {
+  font-family: "Source Sans Pro"; }
+
 .office-info {
   font-family: "Source Sans Pro";
   font-size: 20px;
