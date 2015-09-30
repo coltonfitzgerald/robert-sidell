@@ -8,6 +8,11 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="radio-header">
+			<div id="bgvid">
+				<video autoplay loop muted poster="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio-header.jpg">
+    				<source src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio-header.mp4" type="video/mp4">
+				</video>
+			</div>
 				<div class="overlay">
 					<div class="radio-wrap">
 						<h1 class="page-title">Radio Show</h1>

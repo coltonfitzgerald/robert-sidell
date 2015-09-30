@@ -347,10 +347,21 @@
 	margin: 0 auto;
 }
 
+#bgvid {
+	position: absolute;
+	height: calc(100vh - 163px);
+	min-width: 100%;
+	z-index: -999;
+	overflow:hidden;
+	video {
+		min-width: 100%;
+	}
+}
+
 .radio-header {
 	min-width: 100%;
 	height: calc(100vh - 163px);
-	background-image: url('img/radio-header.jpg');
+	//background-image: url('img/radio-header.jpg');
 	margin-bottom: 50px;
 }
 

@@ -182,4 +182,14 @@ object {
 			}
 		}
 	}
+	#bgvid {
+		video {
+			display: none;
+		}
+	}
+	.radio-header {
+		background-image: url('img/radio-header.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }

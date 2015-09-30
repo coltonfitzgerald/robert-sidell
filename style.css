@@ -1380,10 +1380,18 @@ a {
   max-width: 700px;
   margin: 0 auto; }
 
+#bgvid {
+  position: absolute;
+  height: calc(100vh - 163px);
+  min-width: 100%;
+  z-index: -999;
+  overflow: hidden; }
+  #bgvid video {
+    min-width: 100%; }
+
 .radio-header {
   min-width: 100%;
   height: calc(100vh - 163px);
-  background-image: url("img/radio-header.jpg");
   margin-bottom: 50px; }
 
 .broadcast-wrap {
@@ -1683,4 +1691,10 @@ object {
     display: block !important;
     min-width: 220px !important; }
     .gform_body #field_1_2 .ginput_container input, .gform_body #field_1_3 .ginput_container input {
-      min-width: 100%; } }
+      min-width: 100%; }
+  #bgvid video {
+    display: none; }
+  .radio-header {
+    background-image: url("img/radio-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; } }
