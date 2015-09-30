@@ -49,7 +49,7 @@
 		</div>
 		<p class="disclaimer">Email or contact does not create an attorney and client relationship until there is a writen, signed container contract</p>
 		<div class="contact-links">
-			<a href="<?php echo get_site_url(); ?>/consultation/" title="link to home page" class="button consultation-link">Request a Free Consultation</a>
+			<a href="<?php echo get_site_url(); ?>/free-consultation/" title="link to home page" class="button consultation-link">Request a Free Consultation</a>
 			<a href="tel:+17023843847" title="link to office number" class="button phone-link">Call 702-384-3847</a>
 		</div>
 		<p class="copyright">&copy; <?php echo Date('Y'); ?> Sidell Law Offices | Built by <a href="https://cherrypopdesigns.com" title="link to Cherry Pop Designs">Cherry Pop Designs</a> | All Rights Reserved.</p>
