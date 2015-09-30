@@ -27,9 +27,10 @@
 		<div class="office-info">
 			<div class="office-name">
 				<h2>SIDELL LAW OFFICES</h2>
+				<h3>CALIFORNIA, NEVADA, ARIZONA</h3>
 			</div>
 			<div class="office-number">
-				<h2>CALL US <a href="tel:+17023843847" title="office phone number">702.384.3847</a></h2>
+				<h2><span class="regular">CALL US 24/7: </span><a href="tel:+17023843847" title="office phone number">702.384.3847</a></h2>
 			</div>
 		</div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
