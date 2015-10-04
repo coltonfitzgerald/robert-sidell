@@ -8,9 +8,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="home-header parallax-window" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-header.jpg">
-				<h1>SIDELL</h1>
-				<h2>LAW OFFICES</h2>
-				<p class="tag-line">You can pursue your rights and maintain your integrity</p>
+				<h1 class="animated fadeIn">SIDELL<br/>
+					<span>LAW OFFICES</span></h1>
+				<p class="tag-line animated fadeIn">You can pursue your rights and maintain your integrity</p>
 			</div>
 			<div class="home-section about">
 				<p class="section-name">SIDELL LAW OFFICES</p>
@@ -21,13 +21,22 @@ get_header(); ?>
 			<div class="home-section services">
 				<p class="section-name">SERVICES</p>
 				<div class="service-list">
-				<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 4, 'orderby'=> 'title', 'order' => 'ASC' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="service">
-						<h3><?php echo the_title(); ?></h3>
-						<p><?php echo the_excerpt(); ?></p>
-						<a href="<?php echo get_permalink(); ?>" class="button" title="link to service">Learn More</a>
+						<h3><a href="/services/car-accidents/">Car Accidents</a></h3>
+						<p>We have years of vital experience in handling car accident cases in the Las Vegas area. Our firm has assisted clients in almost every kind of car accident case. Do not let yourself become the victim in a physical or economic sense. We are here to help.</p>
 					</div>
-				<?php endwhile; ?>
+					<div class="service">
+						<h3><a href="/services/product-liability/">Product Liability</a></h3>
+						<p>Our attorneys have been handling product liabilities in Las Vegas for as long as our firm has existed. Our clients often come to us with with tales of product malfunctions, and we help them to our fullest extent. We can help you too.</p>
+					</div>
+					<div class="service">
+						<h3><a href="/services/car-accidents/">Medical Malpractice</a></h3>
+						<p>Don't let a hospital blame you for any personal injuries they may have caused to you or someone you love. Our experienced attorneys will work tirelessly to help you receive full compensation for your pains. Doctors are meant to help, and so are we.</p>
+					</div>
+					<div class="service">
+						<h3><a href="/services/wrongful-death/">Wrongful Death</a></h3>
+						<p>Quite possibly the saddest case involves wrongful death to unsuspecting victims. Our Las Vegas attorneys can bring you all the compensation you deserve for the loss of your loved ones, just as we have helped countless others.</p>
+					</div>
 				</div>
 				<a href="<?php echo get_site_url(); ?>/services/" title="link to services page" class="button service-link">View all Services</a>
 			</div>
@@ -44,7 +53,7 @@ get_header(); ?>
 						<h3><?php echo the_title(); ?></h3>
 						<p class="article-date"><?php echo get_the_date(); ?>
 						<p><?php echo the_excerpt(); ?></p>
-						<a href="<?php echo get_permalink(); ?>" class="button" title="link to article">Read More</a>
+						<!--<a href="<?php echo get_permalink(); ?>" class="button" title="link to article">Read More</a>-->
 					</div>
 				<?php $i++; endwhile; ?>
 				<?php endif; ?>

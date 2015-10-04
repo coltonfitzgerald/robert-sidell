@@ -25,12 +25,12 @@ object {
 @import "galleries";
 
 .admin-bar .home-header {
-	height: calc(100vh - 163px - 32px);
+	height: calc(100vh - 153px - 32px);
 }
 
 .home-header {
 	//background-image: url('img/home-header.jpg');
-	height: calc(100vh - 163px);
+	height: calc(100vh - 153px);
 	min-width: 100%;
 	//background-size: cover;
 	background-repeat: no-repeat;
@@ -142,7 +142,7 @@ object {
 	}
 
 	/* Radio Show Styles */
-	
+
 	.radio-header {
 		height: 100vh;
 		.overlay {

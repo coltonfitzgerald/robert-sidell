@@ -56,8 +56,11 @@ body {
 			padding: 0;
 			margin: 0;
 			&:last-child {
-				border: 2px solid black;
+				border: 1px solid black;
+				margin-top: 23px;
 				a {
+
+					padding: 7px 30px;
 					&:hover {
 						color: white !important;
 						transition: 250ms;
@@ -85,12 +88,15 @@ body {
 	h1 {
 		font-size: 100px;
 		font-weight: 600;
+		letter-spacing: 18px;
+    	line-height: 66px;
 		margin: 0;
-	}
-	h2 {
-		font-size: 52px;
-		font-weight: 600;
-		margin: 0;
+		span {
+			font-size: 52px;
+			font-weight: 600;
+			margin: 0;
+			letter-spacing: 9.36px;
+		}
 	}
 	.tag-line {
 		font-size: 25px;
@@ -100,13 +106,13 @@ body {
 		margin-top: 40px;
 		max-width: 460px;
 		text-align: center;
-		letter-spacing: 4.5px;
+		letter-spacing: 3px;
     	line-height: 32px;
 	}
 }
 
 .home-section {
-	max-width: 1000px;
+	max-width: 1060px;
 	margin: 0 auto;
 	.section-name {
 		color: $section-name-color;
@@ -150,13 +156,23 @@ body {
 		font-weight: 300;
 		font-size: 15px;
 	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .button {
 	color: $section-name-color;
 	text-decoration: none;
 	border: 1px solid $section-name-color;
-	padding: 20px 30px 20px 30px;
+	padding: 17px 33px;
 	text-align: center;
 	font-size: 15px;
 	&:visited {
@@ -171,9 +187,6 @@ body {
 
 .articles {
 	text-align: center;
-	.article-list {
-		margin-bottom: 50px;
-	}
 }
 
 .article {
