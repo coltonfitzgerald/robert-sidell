@@ -452,12 +452,8 @@ body {
   margin: 0; }
 
 .site-footer .radio-show-footer img {
-  width: 140px;
+  width: 200px;
   height: auto; }
-
-.site-footer .radio-show-footer p {
-  font-size: 13px;
-  text-align: center; }
 
 .site-footer .button:hover {
   -webkit-transition: 250ms;
@@ -486,7 +482,8 @@ body {
   text-align: center;
   min-width: 100%;
   margin: 0;
-  margin-top: 60px; }
+  margin-top: 60px;
+  margin-bottom: 83px; }
 
 .consultation h2 {
   font-weight: 300;
@@ -608,6 +605,11 @@ body {
     margin: 0; }
   .radio-header p {
     margin: 0; }
+
+.broadcast-listings h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px; }
 
 .single-broadcast .show-name {
   font-size: 20px;
@@ -3499,7 +3501,7 @@ a {
   background-color: #282828;
   min-width: 100%;
   color: white;
-  margin-top: 50px; }
+  margin-top: 75px; }
   .site-footer a {
     color: white;
     text-decoration: none; }
@@ -3541,16 +3543,16 @@ a {
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-    margin-top: 50px; }
+    margin-top: 23px; }
   .site-footer .contact-links {
-    margin-top: 50px; }
+    margin-top: 23px; }
     .site-footer .contact-links .button {
       border-color: white; }
   .site-footer .copyright {
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-    margin-top: 50px; }
+    margin-top: 31px; }
 
 .articles-page {
   display: -webkit-box;
@@ -3699,7 +3701,8 @@ a {
   height: 400px;
   background-image: url("img/about-banner.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-top: 120px; }
   .about-banner .overlay {
     min-width: 100%;
     min-height: 100%;
@@ -3733,6 +3736,11 @@ a {
               flex-direction: row;
       margin: 0 auto;
       text-align: center; }
+      .about-banner .overlay .book-wrap img {
+        width: 221px;
+        height: 343px;
+        max-width: none;
+        box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.5); }
       .about-banner .overlay .book-wrap .the-gateway {
         margin-right: 35px; }
       .about-banner .overlay .book-wrap .banner-text {
@@ -3752,8 +3760,7 @@ a {
 .footer-menu {
   max-width: 700px;
   margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 10px; }
+  margin-bottom: 50px; }
   .footer-menu #menu-footer-menu {
     list-style: none; }
     .footer-menu #menu-footer-menu li {
@@ -3772,17 +3779,23 @@ a {
 
 #bgvid {
   position: absolute;
-  height: calc(100vh - 99px);
+  height: calc(100vh - 153px);
   min-width: 100%;
   z-index: -999;
   overflow: hidden; }
   #bgvid video {
     min-width: 100%; }
 
+.admin-bar #bgvid {
+  height: calc(100vh - 153px - 32px); }
+
 .radio-header {
   min-width: 100%;
-  height: calc(100vh - 155px);
+  height: calc(100vh - 153px);
   margin-bottom: 50px; }
+
+.admin-bar .radio-header {
+  height: calc(100vh - 153px - 32px); }
 
 .broadcast-wrap {
   display: -webkit-box;
@@ -3937,7 +3950,8 @@ a {
 
 .radio-wrap img {
   width: 300px;
-  height: auto; }
+  height: 100%;
+  margin-top: 18px; }
 
 .radio-wrap .radio-station {
   margin-bottom: 20px; }
@@ -3945,9 +3959,6 @@ a {
 .radio-wrap .button {
   display: block;
   margin-bottom: 64px; }
-
-.section-name {
-  margin-bottom: 20px !important; }
 
 .bolded-title {
   margin-bottom: 10px !important; }

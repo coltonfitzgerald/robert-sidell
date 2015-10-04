@@ -128,7 +128,7 @@
 	background-color: #282828;
 	min-width: 100%;
 	color: white;
-	margin-top: 50px;
+	margin-top: 75px;
 	a {
 		color: white;
 		text-decoration: none;
@@ -162,10 +162,10 @@
 		font-size: 14px;
 		font-weight: 300;
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 23px;
 	}
 	.contact-links {
-		margin-top: 50px;
+		margin-top: 23px;
 		.button {
 			border-color: white;
 		}
@@ -174,7 +174,7 @@
 		font-size: 14px;
 		font-weight: 300;
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 31px;
 	}
 }
 
@@ -299,6 +299,7 @@
 	background-image: url('img/about-banner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	    margin-top: 120px;
 	.overlay {
 		min-width: 100%;
 		min-height: 100%;
@@ -313,6 +314,12 @@
 			flex-direction: row;
 			margin: 0 auto;
 			text-align: center;
+			img {
+				width: 221px;
+    			height: 343px;
+    			max-width: none;
+    			box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.50);
+			}
 			.the-gateway {
 				margin-right: 35px;
 			}
@@ -342,7 +349,6 @@
 	max-width: 700px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	margin-top: 10px;
 	#menu-footer-menu {
 		list-style: none;
 		li {
@@ -366,7 +372,7 @@
 
 #bgvid {
 	position: absolute;
-	height: calc(100vh - 99px);
+	height: calc(100vh - 153px);
 	min-width: 100%;
 	z-index: -999;
 	overflow:hidden;
@@ -375,11 +381,19 @@
 	}
 }
 
+.admin-bar #bgvid {
+	height: calc(100vh - 153px - 32px);
+}
+
 .radio-header {
 	min-width: 100%;
-	height: calc(100vh - 155px);
+	height: calc(100vh - 153px);
 	//background-image: url('img/radio-header.jpg');
 	margin-bottom: 50px;
+}
+
+.admin-bar .radio-header {
+	height: calc(100vh - 153px - 32px);
 }
 
 .broadcast-wrap {
@@ -521,7 +535,8 @@
 .radio-wrap {
 	img {
 		width: 300px;
-		height: auto;
+    	height: 100%;
+    	margin-top: 18px;
 	}
 	.radio-station{
 		margin-bottom: 20px;
@@ -530,10 +545,6 @@
 		display: block;
 		margin-bottom: 64px;
 	}
-}
-
-.section-name {
-	margin-bottom: 20px !important;
 }
 
 .bolded-title {

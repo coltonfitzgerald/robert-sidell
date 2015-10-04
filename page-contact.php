@@ -57,7 +57,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="consultation">
-					<h2>Request a Free Consultation</h2>
+					<h2>Contact Me</h2>
 					<p class="section-name">PHONE</p>
 					<div class="phone-row">
 						<div class="phone-column">

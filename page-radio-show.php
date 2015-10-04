@@ -26,6 +26,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="broadcast-listings">
+				<h2>Previous Broadcasts</h2>
 				<div class="single-broadcast">
 				<?php $args = array( 'post_type' => 'broadcast' ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<div class="broadcast-wrap">
