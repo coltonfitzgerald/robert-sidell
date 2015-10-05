@@ -14,7 +14,7 @@ get_header(); ?>
 					$wp_query = new WP_Query(); $wp_query->query('showposts=7' . '&paged='.$paged);
 					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 						<div class="article">
-							<h3><?php echo the_title(); ?></h3>
+							<h3><a href="<?php echo the_permalink(); ?>"><?php echo the_title(); ?></a></h3>
 							<p class="article-date"><?php echo get_the_date(); ?>
 							<p><?php echo the_excerpt(); ?></p>
 							<a href="<?php echo get_permalink(); ?>" class="article-link button" title="link to post">Read More</a>

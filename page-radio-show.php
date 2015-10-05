@@ -15,13 +15,9 @@ get_header(); ?>
 			</div>
 				<div class="overlay">
 					<div class="radio-wrap">
-						<h1 class="page-title">Radio Show</h1>
-						<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="radio logo" />
-						<p class="radio-station">840AM Las Vegas</p>
-						<p>Tune in to 840AM every Sunday at 6pm to listen LIVE</p>
-						<p>or</p>
-						<p class="last-radio-p">Listen to previous recordings below</p>
-						<a href="http://betaplayer.radio.com/player/kxnt-newsradio" title="link to home page" class="button live-link">Listen LIVE</a>
+						<h1 class="page-title">Success and the Law<br/>Radio Show</h1>
+						<p>Every Sunday at 6pm on 840AM</p>
+						<a href="http://betaplayer.radio.com/player/kxnt-newsradio" class="button live-link">Listen now</a>
 					</div>
 				</div>
 			</div>

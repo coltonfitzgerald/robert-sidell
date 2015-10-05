@@ -194,6 +194,10 @@ body {
 		font-size: 30px;
 		font-weight: 300;
 		margin: 0;
+		a {
+			text-decoration: none;
+			color: black;
+		}
 	}
 	.article-date {
 		text-align: center;
@@ -384,10 +388,6 @@ body {
 			img {
 				margin: 0;
 				padding: 0;
-			}
-			.page-title {
-				margin-top: 50px;
-				margin-bottom: 40px;
 			}
 			.radio-station {
 				font-size: 20px;

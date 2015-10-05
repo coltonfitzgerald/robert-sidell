@@ -422,6 +422,9 @@ body {
   font-size: 30px;
   font-weight: 300;
   margin: 0; }
+  .article h3 a {
+    text-decoration: none;
+    color: black; }
 
 .article .article-date {
   text-align: center; }
@@ -595,9 +598,6 @@ body {
       .radio-header .overlay .radio-wrap img {
         margin: 0;
         padding: 0; }
-      .radio-header .overlay .radio-wrap .page-title {
-        margin-top: 50px;
-        margin-bottom: 40px; }
       .radio-header .overlay .radio-wrap .radio-station {
         font-size: 20px;
         margin-top: 25px; }
@@ -3573,7 +3573,6 @@ a {
           justify-content: center; }
   .articles-page .article {
     max-width: 430px;
-    margin-top: 100px;
     margin-left: 25px;
     margin-right: 25px; }
 
@@ -3596,10 +3595,11 @@ a {
     margin: 0;
     padding: 0;
     margin-bottom: 90px; }
-  .single-article p {
+  .single-article p, .single-article li {
     font-weight: 300;
-    font-size: 15px;
-    text-align: left; }
+    text-align: left;
+    font-size: 18px;
+    line-height: 36px; }
   .single-article #disqus_thread {
     max-width: 700px;
     margin: 0 auto; }
@@ -3784,7 +3784,20 @@ a {
   z-index: -999;
   overflow: hidden; }
   #bgvid video {
-    min-width: 100%; }
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; }
 
 .admin-bar #bgvid {
   height: calc(100vh - 153px - 32px); }
@@ -3957,8 +3970,9 @@ a {
   margin-bottom: 20px; }
 
 .radio-wrap .button {
+  margin-top: 50px;
   display: block;
-  margin-bottom: 64px; }
+  color: white; }
 
 .bolded-title {
   margin-bottom: 10px !important; }
@@ -3967,19 +3981,27 @@ a {
   display: block;
   max-width: 138px; }
 
+.testimonial-videos {
+  max-width: 1060px;
+  margin: 0 auto; }
+
 .testimonial-video {
-  text-align: center; }
+  text-align: center;
+  width: 49%;
+  display: inline-block;
+  vertical-align: top; }
   .testimonial-video video {
     max-width: 700px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 85px;
-    margin-bottom: 85px; }
-  .testimonial-video:last-child video {
-    margin-bottom: 200px; }
+    margin-top: 85px; }
 
 .testimonials-page .page-title {
   margin-bottom: 130px; }
+
+.ttshowcase_rl_subtitle, .ttshowcase_rl_date {
+  margin-bottom: 20px; }
 
 /*--------------------------------------------------------------
 # Media
