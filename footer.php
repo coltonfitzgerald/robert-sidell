@@ -21,7 +21,7 @@
 					$temp = $wp_query; $wp_query= null;
 					$wp_query = new WP_Query(); $wp_query->query('showposts=4');
 					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-						<a href="<?php echo get_permalink(); ?>" title="link to post">
+						<a href="<?php echo get_permalink(); ?>">
 							<div class="article">
 								<h3><?php echo the_title(); ?></h3>
 								<p class="article-date"><?php echo get_the_date(); ?>
@@ -33,7 +33,7 @@
 				<p class="section-name">SERVICES</p>
 				<div class="services">
 					<?php $args = array( 'post_type' => 'services', 'posts_per_page' => 8 ); $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
-					<a href="<?php echo get_permalink(); ?>?" title="link to service">
+					<a href="<?php echo get_permalink(); ?>?">
 					<div class="service">
 						<h3><?php echo the_title(); ?></h3>
 					</div>
@@ -43,7 +43,7 @@
 			</div>
 			<div class="radio-show-footer">
 				<p class="section-name">RADIO SHOW</p>
-				<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="radio show logo" />
+				<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="KXNT 840AM" />
 				<p>840AM KXNT Las Vegas</p>
 			</div>
 		</div>
@@ -59,10 +59,10 @@
 			<a href="mailto:robert@robertsidell.com" title="email link"><div class="icon"><svg enable-background="new -0.709 -27.689 141.732 141.732" fill="white" height="36px" id="Livello_1" version="1.1" viewBox="-0.709 -27.689 141.732 141.732" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Livello_106"><path d="M90.854,43.183l39.834,34.146l-3.627,3.627L86.924,46.552L70.177,60.907L53.626,46.719L13.693,80.951l-3.807-3.807   L49.5,43.182L9.68,9.044l3.627-3.627l56.676,48.587L82.8,43.016l-0.035-0.032h0.073l43.829-37.575l3.811,3.811L90.854,43.183z    M140.314,80.96V5.411c0-2.988-2.416-5.411-5.396-5.411c-0.021,0-0.041,0.003-0.062,0.004C134.835,0.003,134.814,0,134.793,0   c-0.333,0-0.655,0.035-0.975,0.098V0.018H11.158V0.01H5.564C5.508,0.007,5.453,0,5.396,0C5.376,0,5.355,0.003,5.334,0.004   C5.312,0.003,5.293,0,5.271,0C2.359,0,0,2.366,0,5.284c0,0.021,0.003,0.042,0.003,0.063C0.003,5.368,0,5.39,0,5.411V80.96   c0,2.979,2.416,5.396,5.396,5.396h129.521C137.898,86.355,140.314,83.939,140.314,80.96"/></g><g id="Livello_1_1_"/></svg></div></a>
 		</div>
 		<div class="contact-links">
-			<a href="<?php echo get_site_url(); ?>/free-consultation/" title="link to home page" class="button consultation-link">Request a Free Consultation</a>
-			<a href="tel:+17023843847" title="link to office number" class="button phone-link">Call 702-384-3847</a>
+			<a href="<?php echo get_site_url(); ?>/free-consultation/" class="button consultation-link">Request a Free Consultation</a>
+			<a href="tel:+17023843847" class="button phone-link">Call 702-384-3847</a>
 		</div>
-		<p class="copyright">&copy; <?php echo Date('Y'); ?> Sidell Law Offices | Built by <a href="https://cherrypopdesigns.com" title="link to Cherry Pop Designs">Cherry Pop Designs</a> | All Rights Reserved.</p>
+		<p class="copyright">&copy; <?php echo Date('Y'); ?> Sidell Law Offices | Built by <a href="https://cherrypopdesigns.com">Cherry Pop Designs</a> | All Rights Reserved.</p>
 		<div class="footer-menu"><?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?></div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

@@ -13,7 +13,6 @@ get_header(); ?>
 					<div class="service">
 						<a class="service-name-link" href="<?php echo get_permalink(); ?>"><h3><?php echo the_title(); ?></h3></a>
 						<p><?php echo the_excerpt(); ?></p>
-						<a class="button" href="<?php echo get_permalink(); ?>" title="link to service">Learn More</a>
 					</div>
 
 				<?php endwhile; ?>

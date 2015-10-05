@@ -38,12 +38,12 @@ get_header(); ?>
 						<p>Quite possibly the saddest case involves wrongful death to unsuspecting victims. Our Las Vegas attorneys can bring you all the compensation you deserve for the loss of your loved ones, just as we have helped countless others.</p>
 					</div>
 				</div>
-				<a href="<?php echo get_site_url(); ?>/services/" title="link to services page" class="button service-link">View all Services</a>
+				<a href="<?php echo get_site_url(); ?>/services/" class="button service-link">View all Services</a>
 			</div>
 			<div class="home-section contact-links">
-				<a href="<?php echo get_site_url(); ?>/consultation/" title="link to home page" class="button consultation-link">Request a Free Consultation</a>
+				<a href="<?php echo get_site_url(); ?>/consultation/" class="button consultation-link">Request a Free Consultation</a>
 				<p>OR</p>
-				<a href="tel:+17023843847" title="link to office number" class="button phone-link">Call 702-384-3847</a>
+				<a href="tel:+17023843847"class="button phone-link">Call 702-384-3847</a>
 			</div>
 			<div class="home-section articles">
 				<p class="section-name">ARTICLES</p>
@@ -58,15 +58,15 @@ get_header(); ?>
 				<?php $i++; endwhile; ?>
 				<?php endif; ?>
 				</div>
-				<a href="<?php echo get_site_url(); ?>/articles/" title="link to articles page" class="button service-link">View all Articles</a>
+				<a href="<?php echo get_site_url(); ?>/articles/" class="button service-link">View all Articles</a>
 			</div>
 			<div class="home-section radio-show">
 				<p class="section-name">RADIO SHOW</p>
 				<div class="radio-wrap">
-					<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="radio show logo" />
+					<img src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio.png" alt="KXNT News/Talk Radio 840AM" />
 					<div class="radio-info">
 						<p>Tune to 840AM Las Vegas to listen to Success and the Law with me, Robert Sidell</p>
-						<a href="<?php echo get_site_url(); ?>/radio-show/" title="link to radio page" class="button radio-link">View Show Recordings</a>
+						<a href="<?php echo get_site_url(); ?>/radio-show/" class="button radio-link">View Show Recordings</a>
 					</div>
 				</div>
 			</div>

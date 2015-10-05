@@ -23,7 +23,7 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'robert-sidell' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header animated fadeIn" role="banner">
 		<div class="office-info">
 			<div class="office-name">
 				<a href="<?php echo get_site_url(); ?>"><h2>SIDELL LAW OFFICES</h2></a>
