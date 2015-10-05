@@ -18,6 +18,11 @@ get_header(); ?>
 				<p class="about-info">Unfortunately, accidents occur nearly every day in the Las Vegas, North Las Vegas, and Henderson areas. These unexpected events can happen in an instant, and can leave the victims severely injured. Fortunately for those victims, Robert Sidell is available to help in bringing accident claims.</p>
 				<p class="no-fee">No fee unless you win</p>
 			</div>
+			<div class="home-section video-intro">
+				<video controls poster="/wp-content/themes/robert-sidell/img/poster.jpg">
+					<source src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/video-intro.mp4" type="video/mp4">
+				</video>
+			</div>
 			<div class="home-section services">
 				<p class="section-name">SERVICES</p>
 				<div class="service-list">

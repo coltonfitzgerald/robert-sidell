@@ -3396,6 +3396,13 @@ a {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+.video-intro {
+  text-align: center;
+  margin-bottom: 60px; }
+  .video-intro video {
+    max-width: 700px;
+    width: 100%; }
+
 .services {
   text-align: center; }
 
@@ -3796,7 +3803,6 @@ a {
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
     background-size: cover; }
 
 .admin-bar #bgvid {
@@ -4008,6 +4014,18 @@ a {
 .ttshowcase_rl_subtitle, .ttshowcase_rl_date {
   margin-bottom: 20px; }
 
+@media screen and (max-width: 600px) {
+  .service {
+    margin: 0; }
+  .home-header h1 {
+    font-size: 40px;
+    text-align: center; }
+  .home-header h2 {
+    font-size: 20px;
+    text-align: center; }
+  .articles-page .article {
+    margin-bottom: 50px; } }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -4194,12 +4212,16 @@ object {
     min-width: 220px !important; }
     .gform_body #field_1_2 .ginput_container input, .gform_body #field_1_3 .ginput_container input {
       min-width: 100%; }
-  #bgvid video {
-    display: none; }
-  .radio-header {
-    background-image: url("img/radio-header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; }
+  /*#bgvid {
+		video {
+			display: none;
+		}
+	}*/
+  /*.radio-header {
+		background-image: url('img/radio-header.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}*/
   .tag-line {
     font-size: 12px; }
   .testimonial-video {
