@@ -26,12 +26,12 @@ get_header(); ?>
 						<p>We have years of vital experience in handling car accident cases in the Las Vegas area. Our firm has assisted clients in almost every kind of car accident case. Do not let yourself become the victim in a physical or economic sense. We are here to help.</p>
 					</div>
 					<div class="service">
-						<h3><a href="/services/product-liability/">Product Liability</a></h3>
-						<p>Our attorneys have been handling product liabilities in Las Vegas for as long as our firm has existed. Our clients often come to us with with tales of product malfunctions, and we help them to our fullest extent. We can help you too.</p>
+						<h3><a href="/services/motorcycle-accidents/">Motorcycle Accidents</a></h3>
+						<p>Motorcycles, while fun to ride, can be quite dangerous for those riding them if an accident were to occur. The cost of healing injuries of you or your loved ones shouldn't fall to you, and we can help ensure they don't. Contact us today.</p>
 					</div>
 					<div class="service">
-						<h3><a href="/services/car-accidents/">Medical Malpractice</a></h3>
-						<p>Don't let a hospital blame you for any personal injuries they may have caused to you or someone you love. Our experienced attorneys will work tirelessly to help you receive full compensation for your pains. Doctors are meant to help, and so are we.</p>
+						<h3><a href="/services/truck-accidents/">Truck Accidents</a></h3>
+						<p>Truck accidents can be some of the most fatal roadway incidents in Las Vegas. Large trucks can inflict severe injuries or even death on the inhabitants of the vehicles they collide with. If you'd like to bring a claim after being hit by a truck, contact our Las Vegas attorneys today.</p>
 					</div>
 					<div class="service">
 						<h3><a href="/services/wrongful-death/">Wrongful Death</a></h3>

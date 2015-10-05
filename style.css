@@ -3097,7 +3097,7 @@ textarea {
 a {
   color: royalblue; }
   a:visited {
-    color: purple; }
+    color: black; }
   a:hover,
   a:focus,
   a:active {
@@ -3973,6 +3973,11 @@ a {
   margin-top: 50px;
   display: block;
   color: white; }
+
+.home .radio-wrap .button {
+  color: #CDA177; }
+  .home .radio-wrap .button:hover {
+    color: white; }
 
 .bolded-title {
   margin-bottom: 10px !important; }

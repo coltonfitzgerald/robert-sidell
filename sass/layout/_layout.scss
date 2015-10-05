@@ -561,6 +561,13 @@
 	}
 }
 
+.home .radio-wrap .button {
+	color: #CDA177;
+	&:hover {
+		color: white;
+	}
+}
+
 .bolded-title {
 	margin-bottom: 10px !important;
 }
