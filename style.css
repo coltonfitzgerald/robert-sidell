@@ -598,6 +598,9 @@ body {
       .radio-header .overlay .radio-wrap img {
         margin: 0;
         padding: 0; }
+      .radio-header .overlay .radio-wrap .leading-talk-station {
+        font-size: 25px;
+        text-transform: uppercase; }
       .radio-header .overlay .radio-wrap .radio-station {
         font-size: 20px;
         margin-top: 25px; }
@@ -3395,6 +3398,16 @@ a {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .home-header .buttons {
+    margin-top: 40px; }
+  .home-header .button {
+    color: white;
+    border-color: white; }
+    .home-header .button:hover {
+      background-color: white;
+      color: black; }
+  .home-header #bgvid {
+    top: 153px; }
 
 .video-intro {
   text-align: center;

@@ -7,10 +7,20 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="home-header parallax-window" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-header.jpg">
+			<div class="home-header">
+				<div id="bgvid">
+					<video autoplay loop muted poster="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio-header.jpg">
+	    				<source src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/homepage-video.mp4" type="video/mp4">
+					</video>
+				</div>
 				<h1 class="animated fadeIn">SIDELL<br/>
 					<span>LAW OFFICES</span></h1>
 				<p class="tag-line animated fadeIn">You can pursue your rights and maintain your integrity</p>
+				<div class="buttons">
+					<a href="#" class="button">Live Chat</a>
+					<a href="/free-consultation/" class="button">Free Consultation</a>
+					<a href="tel:+17023843847" class="button">Call</a>
+				</div>
 			</div>
 			<div class="home-section about">
 				<p class="section-name">SIDELL LAW OFFICES</p>

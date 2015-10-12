@@ -8,14 +8,14 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="radio-header">
-			<div id="bgvid">
-				<video autoplay loop muted poster="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio-header.jpg">
-    				<source src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio-header.mp4" type="video/mp4">
-				</video>
-			</div>
+				<div id="bgvid">
+					<video autoplay loop muted poster="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio-header.jpg">
+	    				<source src="<?php echo get_site_url(); ?>/wp-content/themes/robert-sidell/img/radio-header.mp4" type="video/mp4">
+					</video>
+				</div>
 				<div class="overlay">
 					<div class="radio-wrap">
-						<h1 class="page-title">Success and the Law<br/>Radio Show</h1>
+						<h1 class="page-title">Robert Sidell<br/>Success and the Law<br/><span class="leading-talk-station">#1 Las Vegas Talk Station</span></h1>
 						<p>Every Sunday at 6pm on 840AM</p>
 						<a href="http://betaplayer.radio.com/player/kxnt-newsradio" class="button live-link">Listen now</a>
 					</div>

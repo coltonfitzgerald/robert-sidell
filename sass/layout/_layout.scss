@@ -55,6 +55,20 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	.buttons {
+		margin-top: 40px;
+	}
+	.button {
+		color: white;
+		border-color: white;
+		&:hover {
+			background-color: white;
+			color: black;
+		}
+	}
+	#bgvid {
+		top: 153px;
+	}
 }
 
 .video-intro {
