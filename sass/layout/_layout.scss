@@ -15,7 +15,7 @@
 	.office-number {
 		margin-right: 50px;
 		h2 {
-			font-size: 20px;
+			font-size: 26px;
 			margin: 0;
     		margin-top: 8px;
 		}
@@ -24,12 +24,13 @@
 		text-align: left;
 		margin-left: 25px;
 		h2 {
-			font-size: 20px;
+			font-size: 29px;
 			font-weight: 600;
 			line-height: 23px;
 		}
 		h3 {
 			color: black;
+			font-size: 21px;
 		}
 	}
 }
@@ -60,7 +61,9 @@
 	}
 	.button {
 		color: white;
-		border-color: white;
+		background-color: black;
+		border: none;
+		font-size: 30px;
 		&:hover {
 			background-color: white;
 			color: black;
@@ -649,4 +652,9 @@
 		margin-bottom: 50px;
 	}
 
+}
+
+.email-links {
+	text-align: center;
+    margin-top: 35px;
 }

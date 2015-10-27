@@ -88,6 +88,9 @@
 			<a href="<?php echo get_site_url(); ?>/free-consultation/" class="button consultation-link">Request a Free Consultation</a>
 			<a href="tel:+17023843847" class="button phone-link">Call 702-384-3847</a>
 		</div>
+		<div class="email-links">
+			<a href="mailto:info@sidelllawoffices.com">info@sidelllawoffices.com</a>
+		</div>
 		<p class="copyright">&copy; <?php echo Date('Y'); ?> Sidell Law Offices | Built by <a href="https://cherrypopdesigns.com">Cherry Pop Designs</a> | All Rights Reserved.</p>
 		<div class="footer-menu"><?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?></div>
 	</footer><!-- #colophon -->
