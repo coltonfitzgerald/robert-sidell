@@ -177,9 +177,6 @@ body {
 	padding: 17px 33px;
 	text-align: center;
 	font-size: 15px;
-	font-size: 25px;
-    color: #98612F;
-    border: 2px #98612F solid;
 	&:visited {
 		color: $section-name-color;
 	}
@@ -188,6 +185,13 @@ body {
 		background-color: $section-name-color;
 		color: white;
 	}
+}
+
+.home-section.services .button,
+.home-section.contact-links .button {
+	font-size: 25px;
+    color: #98612F;
+    border: 2px #98612F solid;
 }
 
 .articles {

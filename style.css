@@ -408,10 +408,7 @@ body {
   border: 1px solid #CDA177;
   padding: 17px 33px;
   text-align: center;
-  font-size: 15px;
-  font-size: 25px;
-  color: #98612F;
-  border: 2px #98612F solid; }
+  font-size: 15px; }
   .button:visited {
     color: #CDA177; }
   .button:hover {
@@ -419,6 +416,12 @@ body {
             transition: 250ms;
     background-color: #CDA177;
     color: white; }
+
+.home-section.services .button,
+.home-section.contact-links .button {
+  font-size: 25px;
+  color: #98612F;
+  border: 2px #98612F solid; }
 
 .articles {
   text-align: center; }
@@ -4050,6 +4053,9 @@ a {
 .email-links {
   text-align: center;
   margin-top: 35px; }
+
+.home-section .contact-links .button {
+  width: 365px; }
 
 /*--------------------------------------------------------------
 # Media
